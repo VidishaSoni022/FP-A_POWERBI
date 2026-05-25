@@ -37,19 +37,22 @@ Revenue forecasting uses two methods:
 **Top-Down**: Market sizing from country population → internet users → agency fee pool → market share.
 
 The final budget averages both approaches.
-Cost drivers are formula-based:
-Cost of Sales = headcount × salary + campaign volume × unit cost
-SG&A = fixed line items + selling commissions at 10% of revenue + external services at 1% of revenue
-D&A = % of beginning fixed asset value
-Interest = fixed rate on financial liabilities balance
-Working capital is driven by DSO (Days Sales Outstanding) and DPO (Days Payable Outstanding) averages derived from actuals.
+| **[Driver](ca://s?q=FP_and_A_cost_drivers)** | **[Formula](ca://s?q=FP_and_A_cost_formulas)** | **[Basis](ca://s?q=FP_and_A_model_basis)** |
+| --- | --- | --- |
+| **Cost of Sales** | Headcount × Salary + Campaign Volume × Unit Cost | Driven by staffing levels and campaign activity |
+| **SG&A** | Fixed Line Items + (10% of Revenue as Selling Commissions) + (1% of Revenue as External Services) | Mix of fixed overhead and variable costs tied to revenue |
+| **D&A** | % of Beginning Fixed Asset Value | Depreciation based on opening asset balances |
+| **Interest** | Fixed Rate × Financial Liabilities Balance | Debt servicing cost |
+| **Working Capital** | DSO (Days Sales Outstanding) + DPO (Days Payable Outstanding) averages | Derived from historical actuals |
 
 🛠️ Tools Used
 Microsoft Excel — financial modeling, formulas, structured worksheets
 FP&A Concepts — bottom-up & top-down budgeting, integrated 3-statement model, driver-based forecasting.
 
 💡 Key Modeling Decisions
-FY2025 revenue growth budgeted at +17.1% YoY, supported by both bottom-up client-level growth and top-down market sizing
-Ireland flagged as a loss-making region (if applicable to this model's geographic split)
-SEO revenue growth kept conservative at +2% vs. Ad campaigns at +23%
-Financial liabilities reduced from $4.68M to $4.25M in FY2025, lowering interest expense.
+| **[Decision](ca://s?q=Key_modeling_decisions_FP_and_A)** | **[Detail](ca://s?q=FP_and_A_modeling_details)** | **[Impact](ca://s?q=FP_and_A_modeling_impact)** |
+| --- | --- | --- |
+| **Revenue Growth FY2025** | Budgeted at **+17.1% YoY**, supported by both bottom-up client-level growth and top-down market sizing | Strengthens confidence in forecast accuracy by blending two approaches |
+| **Regional Performance** | Ireland flagged as a **loss-making region** (if applicable to geographic split) | Highlights risk areas and informs resource allocation |
+| **SEO vs. Ad Growth** | SEO revenue growth kept conservative at **+2%**, while Ad campaigns budgeted at **+23%** | Reflects cautious outlook for SEO vs. aggressive expansion in Ads |
+| **Financial Liabilities** | Reduced from **$4.68M → $4.25M** in FY2025 | Lowers interest expense and improves net income |
